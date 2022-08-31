@@ -63,7 +63,7 @@
 		A5515BE528BDF7D900F96CA3 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515BE428BDF7D900F96CA3 /* FeedImagePresenter.swift */; };
 		A5515BE728BDF84900F96CA3 /* FeedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515BE628BDF84900F96CA3 /* FeedImageViewModel.swift */; };
 		A5515C2C28BF4A1900F96CA3 /* FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B469D28B4D01E002F2EB7 /* FeedImageDataLoader.swift */; };
-		A5515C2E28BF4AA900F96CA3 /* RemoteFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C2D28BF4AA900F96CA3 /* RemoteFeedImageDataLoaderTests.swift */; };
+		A5515C2E28BF4AA900F96CA3 /* LoadFeedImageDataFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C2D28BF4AA900F96CA3 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */; };
 		A5515C3128BF615600F96CA3 /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C3028BF615600F96CA3 /* HTTPClientSpy.swift */; };
 		A5515C3328BF61B000F96CA3 /* RemoteFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C3228BF61B000F96CA3 /* RemoteFeedImageDataLoader.swift */; };
 		A5515C3628BF653200F96CA3 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C3528BF653200F96CA3 /* HTTPURLResponse+StatusCode.swift */; };
@@ -203,7 +203,7 @@
 		A5515BE228BDF2D200F96CA3 /* FeedImagePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenterTests.swift; sourceTree = "<group>"; };
 		A5515BE428BDF7D900F96CA3 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
 		A5515BE628BDF84900F96CA3 /* FeedImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageViewModel.swift; sourceTree = "<group>"; };
-		A5515C2D28BF4AA900F96CA3 /* RemoteFeedImageDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoaderTests.swift; sourceTree = "<group>"; };
+		A5515C2D28BF4AA900F96CA3 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
 		A5515C3028BF615600F96CA3 /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		A5515C3228BF61B000F96CA3 /* RemoteFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		A5515C3528BF653200F96CA3 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
@@ -296,7 +296,7 @@
 				A5515C2F28BF614900F96CA3 /* Helpers */,
 				A5584D6F27705584009C5890 /* LoadFeedFromRemoteUseCaseTests.swift */,
 				A57474772886A5A300CEE656 /* URLSessionHTTPClientTests.swift */,
-				A5515C2D28BF4AA900F96CA3 /* RemoteFeedImageDataLoaderTests.swift */,
+				A5515C2D28BF4AA900F96CA3 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -939,7 +939,7 @@
 				A5515C3828BF65D200F96CA3 /* URLProtocolStub.swift in Sources */,
 				A50DDD5428A2467900E05DA8 /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				A5515BCF28BDBE1800F96CA3 /* FeedPresenterTests.swift in Sources */,
-				A5515C2E28BF4AA900F96CA3 /* RemoteFeedImageDataLoaderTests.swift in Sources */,
+				A5515C2E28BF4AA900F96CA3 /* LoadFeedImageDataFromRemoteUseCaseTests.swift in Sources */,
 				A564CC752770594B00AB0FD1 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				A5515BE328BDF2D200F96CA3 /* FeedImagePresenterTests.swift in Sources */,
 				A59668D428AA4A3F00877410 /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
