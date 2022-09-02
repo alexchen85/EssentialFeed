@@ -26,6 +26,7 @@
 		A5515C9C28C1F78D00F96CA3 /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C9B28C1F78D00F96CA3 /* FeedLoaderCacheDecoratorTests.swift */; };
 		A5515C9E28C1FA7E00F96CA3 /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C9D28C1FA7E00F96CA3 /* FeedLoaderStub.swift */; };
 		A5515CA028C1FC1A00F96CA3 /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515C9F28C1FC1A00F96CA3 /* XCTestCase+FeedLoader.swift */; };
+		A5515CA428C2077100F96CA3 /* FeedLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CA328C2077100F96CA3 /* FeedLoaderCacheDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		A5515C9B28C1F78D00F96CA3 /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		A5515C9D28C1FA7E00F96CA3 /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
 		A5515C9F28C1FC1A00F96CA3 /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
+		A5515CA328C2077100F96CA3 /* FeedLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				A5515C5828C09C0800F96CA3 /* SceneDelegate.swift */,
 				A5515C9028C0B64F00F96CA3 /* FeedLoaderWithFallbackComposite.swift */,
 				A5515C9428C1DDEC00F96CA3 /* FeedImageDataLoaderWithFallbackComposite.swift */,
+				A5515CA328C2077100F96CA3 /* FeedLoaderCacheDecorator.swift */,
 				A5515C5A28C09C0800F96CA3 /* ViewController.swift */,
 				A5515C5C28C09C0800F96CA3 /* Main.storyboard */,
 				A5515C5F28C09C0C00F96CA3 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				A5515C5B28C09C0800F96CA3 /* ViewController.swift in Sources */,
 				A5515C5728C09C0800F96CA3 /* AppDelegate.swift in Sources */,
 				A5515C9128C0B64F00F96CA3 /* FeedLoaderWithFallbackComposite.swift in Sources */,
+				A5515CA428C2077100F96CA3 /* FeedLoaderCacheDecorator.swift in Sources */,
 				A5515C5928C09C0800F96CA3 /* SceneDelegate.swift in Sources */,
 				A5515C9528C1DDEC00F96CA3 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 			);
