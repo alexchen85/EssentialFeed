@@ -30,6 +30,7 @@
 		A5515CA628C484EC00F96CA3 /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CA528C484EC00F96CA3 /* FeedImageDataLoaderCacheDecoratorTests.swift */; };
 		A5515CA828C486C200F96CA3 /* FeedImageDataLoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CA728C486C200F96CA3 /* FeedImageDataLoaderSpy.swift */; };
 		A5515CAA28C487C300F96CA3 /* XCTestCase+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CA928C487C300F96CA3 /* XCTestCase+FeedImageDataLoader.swift */; };
+		A5515CAE28C4963A00F96CA3 /* FeedImageDataLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CAD28C4963A00F96CA3 /* FeedImageDataLoaderCacheDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		A5515CA528C484EC00F96CA3 /* FeedImageDataLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		A5515CA728C486C200F96CA3 /* FeedImageDataLoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderSpy.swift; sourceTree = "<group>"; };
 		A5515CA928C487C300F96CA3 /* XCTestCase+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
+		A5515CAD28C4963A00F96CA3 /* FeedImageDataLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				A5515C9028C0B64F00F96CA3 /* FeedLoaderWithFallbackComposite.swift */,
 				A5515C9428C1DDEC00F96CA3 /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				A5515CA328C2077100F96CA3 /* FeedLoaderCacheDecorator.swift */,
+				A5515CAD28C4963A00F96CA3 /* FeedImageDataLoaderCacheDecorator.swift */,
 				A5515C5A28C09C0800F96CA3 /* ViewController.swift */,
 				A5515C5C28C09C0800F96CA3 /* Main.storyboard */,
 				A5515C5F28C09C0C00F96CA3 /* Assets.xcassets */,
@@ -283,6 +286,7 @@
 				A5515CA428C2077100F96CA3 /* FeedLoaderCacheDecorator.swift in Sources */,
 				A5515C5928C09C0800F96CA3 /* SceneDelegate.swift in Sources */,
 				A5515C9528C1DDEC00F96CA3 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
+				A5515CAE28C4963A00F96CA3 /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
