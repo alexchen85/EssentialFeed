@@ -51,6 +51,7 @@
 		A5515CEA28C72A2700F96CA3 /* FeedImageCell+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CE228C72A2700F96CA3 /* FeedImageCell+TestHelpers.swift */; };
 		A5515CEB28C72A2700F96CA3 /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CDD28C72A2500F96CA3 /* FeedViewController+TestHelpers.swift */; };
 		A5515CED28C72A4300F96CA3 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CEC28C72A4300F96CA3 /* FeedUIIntegrationTests.swift */; };
+		A5515CEF28C72BE500F96CA3 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CEE28C72BE500F96CA3 /* FeedAcceptanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		A5515CE128C72A2600F96CA3 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		A5515CE228C72A2700F96CA3 /* FeedImageCell+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageCell+TestHelpers.swift"; sourceTree = "<group>"; };
 		A5515CEC28C72A4300F96CA3 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
+		A5515CEE28C72BE500F96CA3 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				A5515C9B28C1F78D00F96CA3 /* FeedLoaderCacheDecoratorTests.swift */,
 				A5515C9228C0B6F000F96CA3 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				A5515CA528C484EC00F96CA3 /* FeedImageDataLoaderCacheDecoratorTests.swift */,
+				A5515CEE28C72BE500F96CA3 /* FeedAcceptanceTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				A5515CE928C72A2700F96CA3 /* UIRefreshControl+TestHelpers.swift in Sources */,
 				A5515C8F28C0B1E200F96CA3 /* FeedLoaderWithFalbackCompositeTests.swift in Sources */,
 				A5515C9E28C1FA7E00F96CA3 /* FeedLoaderStub.swift in Sources */,
+				A5515CEF28C72BE500F96CA3 /* FeedAcceptanceTests.swift in Sources */,
 				A5515C9828C1DE7E00F96CA3 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				A5515CED28C72A4300F96CA3 /* FeedUIIntegrationTests.swift in Sources */,
 				A5515CE428C72A2700F96CA3 /* UIButton+TestHelpers.swift in Sources */,
