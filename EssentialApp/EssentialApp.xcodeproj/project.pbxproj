@@ -38,6 +38,7 @@
 		A5515CEB28C72A2700F96CA3 /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CDD28C72A2500F96CA3 /* FeedViewController+TestHelpers.swift */; };
 		A5515CED28C72A4300F96CA3 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CEC28C72A4300F96CA3 /* FeedUIIntegrationTests.swift */; };
 		A5515CEF28C72BE500F96CA3 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5515CEE28C72BE500F96CA3 /* FeedAcceptanceTests.swift */; };
+		A555B36428D480C50015E016 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555B36328D480C50015E016 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		A5515CE228C72A2700F96CA3 /* FeedImageCell+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageCell+TestHelpers.swift"; sourceTree = "<group>"; };
 		A5515CEC28C72A4300F96CA3 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		A5515CEE28C72BE500F96CA3 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
+		A555B36328D480C50015E016 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				A5515C5628C09C0800F96CA3 /* AppDelegate.swift */,
 				A5515C5828C09C0800F96CA3 /* SceneDelegate.swift */,
+				A555B36328D480C50015E016 /* CombineHelpers.swift */,
 				A5515CCE28C729D700F96CA3 /* FeedUIComposer.swift */,
 				A5515CD028C729D800F96CA3 /* WeakRefVirtualProxy.swift */,
 				A5515CD328C729D800F96CA3 /* FeedImageDataLoaderPresentationAdapter.swift */,
@@ -307,6 +310,7 @@
 				A5515CD628C729D900F96CA3 /* FeedUIComposer.swift in Sources */,
 				A5515CD428C729D900F96CA3 /* WeakRefVirtualProxy.swift in Sources */,
 				A5515CD828C729D900F96CA3 /* FeedViewAdapter.swift in Sources */,
+				A555B36428D480C50015E016 /* CombineHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
